@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T10:09:52.615Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="VOimlRFZ1gqWriwMNtP2" version="14.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-17T08:43:24.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QDKRWfka5G5A9hqShr-U" version="14.6.13" type="github" pages="3">
   <diagram id="REFkd7xtqxe4dWkekb8k" name="prober">
-    <mxGraphModel dx="1111" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,6 +325,68 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="203.32000000000016" y="377.93999999999994" as="targetPoint" />
             <mxPoint x="245.0000000000001" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HHdtmbnmRHwW11Na4Ttz" name="metrics">
+    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-0" />
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-1" parent="XKucFuLRrvZmdfxZXk8b-0" />
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="120" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-2" value="&lt;h1&gt;Aggragator&lt;/h1&gt;&lt;p&gt;不同类型的数据，在每个采样周期结束时，会产生数据&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="120" y="40" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-4" value="a1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="120" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-5" value="a2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="160" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-6" value="a3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="240" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="290" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="460" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-10" value="b1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="300" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-11" value="b2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="340" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-12" value="b3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="420" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-13" value="c1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="550" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-18" value="&lt;h1&gt;gauge&lt;/h1&gt;&lt;p&gt;取每个周期的最后一个值&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;a3&lt;/li&gt;&lt;li&gt;b3&lt;/li&gt;&lt;li&gt;c1&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="104" y="320" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-19" value="&lt;h1&gt;count&lt;/h1&gt;&lt;p&gt;周期内求和&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a1 + a2 + a3&lt;/li&gt;&lt;li&gt;b1 + b2 + b3&lt;/li&gt;&lt;li&gt;c1&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="300" y="320" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-20" value="&lt;h1&gt;counter&lt;/h1&gt;&lt;p&gt;周期内带采样率的求和&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="500" y="320" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-21" value="&lt;h1&gt;monotonic_count&lt;/h1&gt;&lt;p&gt;周期内的变化值(delta)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a3 - a1&lt;/li&gt;&lt;li&gt;b3 - a3&lt;/li&gt;&lt;li&gt;c1 - b3&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="103" y="465" width="231" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-22" value="&lt;h1&gt;rate&lt;/h1&gt;&lt;p&gt;周期内最近2次采样的变化率&lt;/p&gt;&lt;ul style=&quot;font-size: 13px&quot;&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(36 , 41 , 46)&quot;&gt;(a3 - a2) / (a3.ts - a2.ts)&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;(b3 - b2) / (b3.ts - b2.ts)&lt;/li&gt;&lt;li&gt;(c1 - b3) / (c1.ts - b3.ts)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry x="500" y="465" width="231" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XKucFuLRrvZmdfxZXk8b-23" value="" style="endArrow=classic;html=1;shadow=0;targetPerimeterSpacing=0;strokeColor=#000000;strokeWidth=3;endSize=5;" edge="1" parent="XKucFuLRrvZmdfxZXk8b-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="760" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
