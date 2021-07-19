@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T03:18:15.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="I9UKutPwbzOXCHFvnQzt" version="14.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-19T03:34:19.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="678X0rXnDOfsOR1cum8R" version="14.8.0" type="github" pages="5">
   <diagram id="RnjEC8FpvmOBi9FbOcQ4" name="app store">
     <mxGraphModel dx="1368" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,8 +90,8 @@
         <mxCell id="Xy2Rg3G16Ut7OkEXH86Z-83" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ea6b66&quot;&gt;PKG Install&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;files delete/install&lt;/li&gt;&lt;li&gt;configure&lt;/li&gt;&lt;ul&gt;&lt;li&gt;app运行时配置 类似 systemd.service&lt;/li&gt;&lt;ul&gt;&lt;li&gt;启动参数&lt;/li&gt;&lt;li&gt;环境变量&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#67ab9f&quot;&gt;配置文件&lt;/font&gt;( 这个还会被 collect rule 修改)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&amp;nbsp;采集配置 (prometheus collector config)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;align=left;direction=west;" vertex="1" parent="Xy2Rg3G16Ut7OkEXH86Z-1">
           <mxGeometry x="575" y="590" width="360" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Xy2Rg3G16Ut7OkEXH86Z-85" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Collect Rule&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;series config&amp;nbsp; &amp;nbsp; - series类型规则&amp;nbsp;(可以是多个, 例如 一个配置采集多个mysql）&lt;br&gt;&lt;/li&gt;&lt;li&gt;logs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - 日志类型规则&lt;/li&gt;&lt;li&gt;JMX config&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- JMX 类型采集规则&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;direction=east;" vertex="1" parent="Xy2Rg3G16Ut7OkEXH86Z-1">
-          <mxGeometry x="480" width="460" height="115" as="geometry" />
+        <mxCell id="Xy2Rg3G16Ut7OkEXH86Z-85" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Collect Rule&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;series config&amp;nbsp; &amp;nbsp; - series类型规则&amp;nbsp;(可以是多个, 例如 一个配置采集多个mysql）&lt;br&gt;&lt;/li&gt;&lt;li&gt;logs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - 日志类型规则&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;direction=east;" vertex="1" parent="Xy2Rg3G16Ut7OkEXH86Z-1">
+          <mxGeometry x="480" y="20" width="460" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
