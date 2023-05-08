@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T02:27:08.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AviwSv5LVDp-kVtVBKBG" version="21.0.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-08T13:12:16.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GVUwB-TxyMPKndHxzbEG" version="21.0.10" type="github" pages="4">
   <diagram id="qsw-7wgHA4WMMDQBHD0g" name="概要">
     <mxGraphModel dx="2204" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="62wBxy3mLyl3Jp4W8fly" name="应用中心模板">
-    <mxGraphModel dx="1048" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
