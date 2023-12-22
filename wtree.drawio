@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:31:30.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UjGPUGYmu1OBK9nC4dLV" version="22.1.11" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-12-22T08:02:14.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Yqu3piBZWDqNkbWkg0tS" version="22.1.11" type="github" pages="8">
   <diagram name="helm" id="qljyFYpdPilDl0xy3mIZ">
     <mxGraphModel dx="2074" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1796,7 +1796,7 @@
         <mxCell id="wO4xJ9OJjn8WUX8s8pvv-19" value="hna&lt;br&gt;&lt;div style=&quot;text-align: left; font-size: 18px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Verdana&quot;&gt;10.75.23.14:7701&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Verdana&quot;&gt;10.75.26.24:7701&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Verdana&quot;&gt;10.74.68.21:7701&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="234" y="3055" width="183" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="wO4xJ9OJjn8WUX8s8pvv-20" value="hnc" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="wO4xJ9OJjn8WUX8s8pvv-20" value="hna" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="295" y="3280" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wO4xJ9OJjn8WUX8s8pvv-21" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="wO4xJ9OJjn8WUX8s8pvv-18" target="wO4xJ9OJjn8WUX8s8pvv-19">
@@ -1863,6 +1863,9 @@
         </mxCell>
         <mxCell id="wO4xJ9OJjn8WUX8s8pvv-65" value="&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;100.69.238.148:8080&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="309" y="3680" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wO4xJ9OJjn8WUX8s8pvv-73" value="提供国外安装包下载服务" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="3410" width="301" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
