@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T11:05:56.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JrCA_ASP8xdNVL0jMC5x" version="23.1.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-02-28T06:39:00.259Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Z-SejExHXD_VexuIJBSt" version="23.1.5" type="github" pages="11">
   <diagram name="helm" id="qljyFYpdPilDl0xy3mIZ">
     <mxGraphModel dx="1903" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,7 +560,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b921lRb7EGjR2WS0hJnj" name="overview">
-    <mxGraphModel dx="2446" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="2581" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,7 +1135,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eYaLr3TIYtQ36cbCVWdS-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;helm&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="1665.5" y="140" width="150" height="60" as="geometry" />
+          <mxGeometry x="1643.25" y="140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eYaLr3TIYtQ36cbCVWdS-22" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYaLr3TIYtQ36cbCVWdS-4" target="eYaLr3TIYtQ36cbCVWdS-3">
           <mxGeometry relative="1" as="geometry" />
@@ -2927,7 +2927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5IeGSfDoVK0RcYwkqezA" name="业务逻辑">
-    <mxGraphModel dx="2159" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2339" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3194,18 +3194,166 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9BWicL13rB3gdsf5Shdr" name="cache">
-    <mxGraphModel dx="1619" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KuFvdp7XvFEGP5G6JI6G-1" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KuFvdp7XvFEGP5G6JI6G-1" target="Qc8hEYfIZrahjzKQ_8_5-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KuFvdp7XvFEGP5G6JI6G-2" value="cache-server" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KuFvdp7XvFEGP5G6JI6G-1" target="Qc8hEYfIZrahjzKQ_8_5-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KuFvdp7XvFEGP5G6JI6G-3" value="tree" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="KuFvdp7XvFEGP5G6JI6G-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;域名是否配置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7e-2zRCOLSLX4_AjOv2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7e-2zRCOLSLX4_AjOv2-1" target="KuFvdp7XvFEGP5G6JI6G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7e-2zRCOLSLX4_AjOv2-1" value="请求" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;error&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-6" target="Qc8hEYfIZrahjzKQ_8_5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-6" target="Qc8hEYfIZrahjzKQ_8_5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;是否需要读取缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-8" target="Qc8hEYfIZrahjzKQ_8_5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-8" target="Qc8hEYfIZrahjzKQ_8_5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;是否存在缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-10" target="Qc8hEYfIZrahjzKQ_8_5-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="790" />
+              <mxPoint x="300" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-10" value="&lt;font face=&quot;Architects Daughter&quot;&gt;回源获取 resp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-13" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-14" value="&lt;font face=&quot;Architects Daughter&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-17" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-18" target="Qc8hEYfIZrahjzKQ_8_5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-18" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;从缓存获取resp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-20" value="&lt;font face=&quot;Architects Daughter&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="650" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-21" target="Qc8hEYfIZrahjzKQ_8_5-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="870" />
+              <mxPoint x="630" y="240" />
+              <mxPoint x="838" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-21" target="Qc8hEYfIZrahjzKQ_8_5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-21" value="&lt;font face=&quot;Architects Daughter&quot;&gt;返回resp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-26" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-33" target="Qc8hEYfIZrahjzKQ_8_5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-33" target="Qc8hEYfIZrahjzKQ_8_5-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="330" />
+              <mxPoint x="720" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-33" value="&lt;font face=&quot;Architects Daughter&quot;&gt;缓存是否过期&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="778" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-35" value="后台调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="840" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-41" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;回源获取 resp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-48" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="295" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-49" target="Qc8hEYfIZrahjzKQ_8_5-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-49" target="Qc8hEYfIZrahjzKQ_8_5-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-49" value="&lt;font face=&quot;Architects Daughter&quot;&gt;resp status code &amp;gt;= 500&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-51" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;End&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-54" target="Qc8hEYfIZrahjzKQ_8_5-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-54" value="&lt;font face=&quot;Architects Daughter&quot;&gt;更新缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-39" target="Qc8hEYfIZrahjzKQ_8_5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-39" target="Qc8hEYfIZrahjzKQ_8_5-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-39" value="&lt;font face=&quot;Architects Daughter&quot;&gt;是否回源过&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="778" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.88;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qc8hEYfIZrahjzKQ_8_5-41" target="Qc8hEYfIZrahjzKQ_8_5-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-78" value="&lt;font face=&quot;Architects Daughter&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="380" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-79" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-80" value="&lt;font face=&quot;Architects Daughter&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-81" value="&lt;font face=&quot;Architects Daughter&quot;&gt;True&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qc8hEYfIZrahjzKQ_8_5-82" value="&lt;font face=&quot;Architects Daughter&quot;&gt;False&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="570" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
