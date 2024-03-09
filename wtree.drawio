@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T03:50:00.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yFYtgO6yGqGaht1lfBa5" version="24.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-03-09T04:27:08.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="JUZ0R2o5irOwaYNp3-wr" version="24.0.3" type="github" pages="11">
   <diagram name="helm" id="qljyFYpdPilDl0xy3mIZ">
-    <mxGraphModel dx="1549" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1531" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -251,7 +251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZTr8gXbN4nB9PLhEMUpl" name="whitelist2.0">
-    <mxGraphModel dx="4608" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3185" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1194,20 +1194,83 @@
         <mxCell id="sXHVcWXjgSc7v6dQ5gek-92" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="28.75" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-1" value="ddmq consumer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="w8sq0Fsx_WSdVZ7o_oC9-1" target="w8sq0Fsx_WSdVZ7o_oC9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-1" value="ddmq consumer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-1290" y="2078" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-2" value="接收白名单同步记录 record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="w8sq0Fsx_WSdVZ7o_oC9-2" target="qJkdsI-n6H6nGOIcOYkO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-2" value="接收白名单同步记录 record" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-1375" y="2220" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-3" value="gift&amp;nbsp; 增量设置ip白名单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1430" y="2324" width="230" height="60" as="geometry" />
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="w8sq0Fsx_WSdVZ7o_oC9-3" target="qJkdsI-n6H6nGOIcOYkO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="w8sq0Fsx_WSdVZ7o_oC9-3" target="qJkdsI-n6H6nGOIcOYkO-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1050" y="2610" />
+              <mxPoint x="-1050" y="2330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8sq0Fsx_WSdVZ7o_oC9-3" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将白名单相关ip全部加入到&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对应管控的白名单规则中&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-1365" y="2580" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="qJkdsI-n6H6nGOIcOYkO-4" target="w8sq0Fsx_WSdVZ7o_oC9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJkdsI-n6H6nGOIcOYkO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1470" y="2509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-4" value="&lt;div&gt;是 nat， 且&lt;span style=&quot;background-color: initial;&quot;&gt;公有云节点&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="2479" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-8" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1245" y="2539" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="qJkdsI-n6H6nGOIcOYkO-10" target="qJkdsI-n6H6nGOIcOYkO-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1470" y="2720" />
+              <mxPoint x="-1470" y="2420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-10" value="&lt;div&gt;调用服务树 ACK 接口，通知同步成功&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="2690" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-12" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1245" y="2649" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="qJkdsI-n6H6nGOIcOYkO-21" target="qJkdsI-n6H6nGOIcOYkO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-21" value="添加任务到任务队列" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1375" y="2310" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="qJkdsI-n6H6nGOIcOYkO-23" target="qJkdsI-n6H6nGOIcOYkO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-23" value="从任务队列取同步任务" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1375" y="2400" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-27" value="失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1115" y="2580" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qJkdsI-n6H6nGOIcOYkO-31" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="2478" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="tEwYLPwgbOoF4j1gKe4I" name="白名单优化">
-    <mxGraphModel dx="1914" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1531" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
