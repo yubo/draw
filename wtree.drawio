@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T08:00:10.756Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="zGr1d-8nJpUZwcD-EdAf" version="24.0.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-03-14T08:21:27.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Q9Z7pjjpyXQcUm53NdpC" version="24.0.2" type="github" pages="11">
   <diagram name="helm" id="qljyFYpdPilDl0xy3mIZ">
     <mxGraphModel dx="1914" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZTr8gXbN4nB9PLhEMUpl" name="whitelist2.0">
-    <mxGraphModel dx="5579" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3787" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1385,6 +1385,84 @@
         </mxCell>
         <mxCell id="GLmM1jzJUhloTlQLfU38-38" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="-566.25" y="2560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="GLmM1jzJUhloTlQLfU38-42" target="GLmM1jzJUhloTlQLfU38-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-42" value="服务树" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1341" y="3245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="GLmM1jzJUhloTlQLfU38-43" target="GLmM1jzJUhloTlQLfU38-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-43" value="notify" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="3245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="GLmM1jzJUhloTlQLfU38-44" target="GLmM1jzJUhloTlQLfU38-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-44" value="白名单管控" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="3245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-45" value="服务树" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1341.25" y="3730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-46" value="notify" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040.25" y="3730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-47" value="白名单管控" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-760.25" y="3730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-51" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1461.25" y="3360" as="sourcePoint" />
+            <mxPoint x="-1281.25" y="3360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-54" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1461.25" y="3462" as="sourcePoint" />
+            <mxPoint x="-1281.25" y="3462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-56" value="添加白名单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1411.25" y="3328" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-58" value="生成白名单同步记录 record" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1475" y="3430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-59" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1281.25" y="3506" as="sourcePoint" />
+            <mxPoint x="-980" y="3506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-60" value="通过 DDMQ 发送 record&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="3468" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-61" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-980" y="3560" as="sourcePoint" />
+            <mxPoint x="-700" y="3560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-62" value="收到record，到对应管控设置ip白名单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="3530" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-65" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-980" y="3640" as="sourcePoint" />
+            <mxPoint x="-1280" y="3640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-66" value="返回ack，更新record状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="3608" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-67" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=cronjob;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="3430" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="GLmM1jzJUhloTlQLfU38-68" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="-1494" y="3340" width="19" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
